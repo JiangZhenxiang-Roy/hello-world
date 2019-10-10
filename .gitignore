@@ -34,3 +34,5 @@
 /Prime.c~
 *.json
 *.bin
+CMakeLists.txt
+cmake-build-debug
