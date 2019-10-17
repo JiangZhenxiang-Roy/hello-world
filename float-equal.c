@@ -7,9 +7,9 @@ int main(){
     printf("Please enter two floats:");
     scanf("%f,%f",&float1,&float2);
     if (fabs(float1-float2)<0.00001){
-        printf("This two floats are equal");
+        printf("These two floats are equal");
     }
     else{
-        printf("This two floats are not equal.");
+        printf("These two floats are not equal.");
     }
 }
