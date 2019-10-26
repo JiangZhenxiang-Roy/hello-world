@@ -11,13 +11,16 @@ int main(){
     int an,en,rn,nn,bn;
     printf("Please enter the number of people in the travel agency:");
     scanf("%d",&an);
-    printf("/nPlease enter the number of people can speak english:");
+    printf("Please enter the number of people can speak english:");
     scanf("%d",&en);
-    printf("/nPlease enter the number of people can speak russian:");
+    printf("Please enter the number of people can speak russian:");
     scanf("%d",&rn);
-    printf("/nPlease enter the number of people that can not speak both english and russian:");
+    printf("Please enter the number of people that can not speak both english and russian:");
     scanf("%d",&nn);
     bn=en+rn-an+nn;
-    printf("/nThe number of people that can speak both english and russian is %d",bn);
+    if (bn<0||bn>en||bn>rn||an<0||en<0||rn<0||nn<0)
+        printf("Input Error");
+    else
+        printf("The number of people that can speak both english and russian is %d",bn);
     return 0;
 }
