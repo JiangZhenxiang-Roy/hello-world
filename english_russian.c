@@ -18,7 +18,7 @@ int main(){
     printf("Please enter the number of people that can not speak both english and russian:");
     scanf("%d",&nn);
     bn=en+rn-an+nn;
-    if (bn<0||bn>en||bn>rn||an<0||en<0||rn<0||nn<0)
+    if (bn<0||bn>en||bn>rn||an<0||en<0||rn<0||nn<0||nn>an-en||nn>an-rn)
         printf("Input Error");
     else
         printf("The number of people that can speak both english and russian is %d",bn);
