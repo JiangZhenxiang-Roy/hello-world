@@ -6,7 +6,7 @@ int main() {
     int n, i, *x, m, temp;
     int init = 5;
     x = (int *) malloc(init * sizeof(int));
-    printf("Please enter the number of numbers:");
+    printf("Please enter the amount of numbers:");
     scanf("%d", &n);
     printf("Please enter numbers in row (one number each line)\n");
     for (i = 0; i < n; i++) {
