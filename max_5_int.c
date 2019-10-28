@@ -6,9 +6,8 @@
 int main(){
     int x[5],i,temp,m,r;
     //Collect data
-    printf("Please enter five integers:(one number each line)\n");
+    printf("Please enter five integers:\n");
     for (i=0;i<5;i++){
-        printf("No.%d:",i+1);
         scanf("%d",&x[i]);
     }
     //Sort

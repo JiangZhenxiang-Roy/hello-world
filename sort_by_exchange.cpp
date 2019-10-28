@@ -8,9 +8,8 @@ int main() {
     x = (int *) malloc(init * sizeof(int));
     printf("Please enter the amount of numbers:");
     scanf("%d", &n);
-    printf("Please enter numbers in row (one number each line)\n");
+    printf("Please enter numbers in row:\n");
     for (i = 0; i < n; i++) {
-        printf("No.%d:", i + 1);
         if (i < init)
             scanf("%d", x + i);
         else {

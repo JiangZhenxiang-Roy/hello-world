@@ -19,7 +19,7 @@ int main(){
     scanf("%d",&nn);
     bn=en+rn-an+nn;
     if (bn<0||bn>en||bn>rn||an<0||en<0||rn<0||nn<0||nn>an-en||nn>an-rn)
-        printf("Input Error");
+        printf("Input Errwor");
     else
         printf("The number of people that can speak both english and russian is %d",bn);
     return 0;
